@@ -5,6 +5,7 @@ function AboutPage() {
     return <Layout title="Choir">
         <Container>
             <h1>About the project</h1>
+            <p></p>
         </Container>
     </Layout >
 }

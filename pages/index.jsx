@@ -1,49 +1,62 @@
 import Layout from '../components/layout';
-import { Container, CardDeck, Card, Jumbotron } from 'react-bootstrap';
+import { Container, CardDeck, Card, Jumbotron, Row, Col } from 'react-bootstrap';
 import Link from 'next/link'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faViolin, faUserMusic, faBoxHeart } from '@fortawesome/pro-solid-svg-icons'
 
 function HomePage() {
     return <Layout title="Home">
         <Jumbotron fluid className="home-banner">
             <Container>
-                <h1 className="display-4">Edinburgh Virtual<br />
-Festival Project 2020</h1>
+                <h1 className="display-3">Edinburgh<br /> Beethoven<br /> 2020</h1>
 
             </Container>
         </Jumbotron>
-        <Container className="clearfix py-5">
-            <section className="home-cta p-2">
-                <CardDeck>
-                    <Card>
-                        <Card.Img variant="top" src="/images/orchestra.jpg" />
-                        <Card.Footer className="text-center">
-                            <Link href="/orchestra"><a className="stretched-link">Orchestra</a></Link>
-                        </Card.Footer>
-                    </Card>
-                    <Card>
-                        <Card.Img variant="top" src="/images/choir.jpg" />
-                        <Card.Footer className="text-center">
-                            <Link href="/choir"><a className="stretched-link">Choir</a></Link>
-                        </Card.Footer>
-                    </Card>
-                    <Card>
-                        <Card.Img variant="top" src="/images/dunno.jpg" />
-                        <Card.Footer className="text-center">
-                            <a href="/donate" className="stretched-link">Donate</a>
-                        </Card.Footer>
-                    </Card>
-                </CardDeck>
-            </section>
-            <section>
-                <p>25 days until deadline</p>
-                <p>45 days until premier</p>
-            </section>
+        <Container className="clearfix">
+            <Row>
+                <Col md="4" l="3">
+                    <Row>
+                        <Col>
+                            <div className="bg-warning text-center rounded-lg p-3 border countdown clearfix"><span className="display-4">14</span> days until deadline</div>
+                        </Col>
+                    </Row>
+                </Col>
+                <Col md="8" l="9">
+                    <div className="home-cta p-2">
+                        <CardDeck>
+                            <Card>
+                                <FontAwesomeIcon size="6x" icon={faViolin} />
+                                <Card.Footer className="text-center">
+                                    <Link href="/orchestra"><a className="stretched-link">Orchestra</a></Link>
+                                </Card.Footer>
+                            </Card>
+                            <Card>
+                                <FontAwesomeIcon size="6x" icon={faUserMusic} />
+                                <Card.Footer className="text-center">
+                                    <Link href="/choir"><a className="stretched-link">Choir</a></Link>
+                                </Card.Footer>
+                            </Card>
+                            <Card>
+                                <FontAwesomeIcon size="6x" icon={faBoxHeart} />
+                                <Card.Footer className="text-center">
+                                    <a href="/donate" className="stretched-link">Donate</a>
+                                </Card.Footer>
+                            </Card>
+                        </CardDeck>
+                    </div>
+                </Col>
+            </Row>
         </Container>
         <section className="py-5">
             <Container>
-                <h2>Our goal</h2>
+                <h2>We need you!</h2>
                 <p>
                     To bring together the amateur choirs and orchestras of Edinburgh for a performance of the chorale from Beethoven's 9th Symphony.
+                </p>
+                <p>If you play an instrument, or sing in a choir, click the links above to find out how you can take part!</p>
+                <p>Then check back here after the premier and share the video we create together far and wide.</p>
+                <p>
+                    <Link href="/about"><a>Find out more about this project</a></Link>
                 </p>
             </Container>
         </section>

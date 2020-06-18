@@ -1,5 +1,9 @@
 node_modules
+
 .next
+
 .vscode
+
 out
 
+.DS_Store

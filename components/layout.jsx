@@ -4,8 +4,8 @@ import Head from 'next/head'
 
 const Layout = ({ title, children }) =>
     <>
-        <Head> <title>{title} - Edinburgh Virtual Festival 2020</title></Head>
-        <Container>
+        <Head> <title>{title} - Edinburgh Beethoven 2020</title></Head>
+        <Container className='nav-container'>
             <Row>
                 <Col>
                     <header>

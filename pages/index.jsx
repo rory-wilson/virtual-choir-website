@@ -51,10 +51,17 @@ function HomePage() {
             <Container>
                 <h2>We need you!</h2>
                 <p>
-                    To bring together the amateur choirs and orchestras of Edinburgh for a performance of the chorale from Beethoven's 9th Symphony.
+                    For the first time since 1947 there will be no concerts in Edinburgh this August. But we can still perform together!
                 </p>
-                <p>If you play an instrument, or sing in a choir, click the links above to find out how you can take part!</p>
-                <p>Then check back here after the premier and share the video we create together far and wide.</p>
+                <p>
+                    We are inviting musicians to join this virtual performance of Beethoven’s “Ode to Joy” as a symbol of our solidarity with musicians and audiences around the world and a sign of hope that we will welcome them to Edinburgh next year.</p>
+                <p>
+                    We will also be using this to raise money for <a href="https://www.helpmusicians.org.uk">Help Musicians</a>, a charity which provides support for musicians at times of crisis and which has been providing hardship funding during the Coronavirus situation.</p>
+                <p>
+                    If you <Link href="/orchestra"><a>play an instrument</a></Link>, or <Link href="/choir"><a >sing in a choir</a></Link>, click the links above to find out how you can take part!</p>
+                <p>
+                    Then check back here after the premiere and share the video we create together far and wide.
+                </p>
                 <p>
                     <Link href="/about"><a>Find out more about this project</a></Link>
                 </p>

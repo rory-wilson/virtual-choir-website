@@ -24,8 +24,8 @@ function OrchestraPage() {
                         <h2>Get ready to record</h2>
                         <p>Before you start, make sure that:</p>
                         <ul class="list-bullet">
-                            <li> that you are in a well-lit place and we can see you clearly.</li>
-                            <li> that you are in front of a plain wall if possible</li>
+                            <li> that you are in a well-lit place and we can see you and your instrument clearly</li>
+                            <li> there is little to no background noise</li>
                             <li> you are recording in landscape <FontAwesomeIcon title="Landscape" icon={faImage} aria-label="Landscape" /> and not portrait</li>
                             <li> you are not too far away that we can’t hear you and that you’re not too close that your sound is distorted</li></ul>
                     </section>
@@ -35,6 +35,9 @@ function OrchestraPage() {
                             <li>You'll need to watch the conducting video and listen to it on headphones - there's a backing track to help you but we don't want to capture it on your microphone!</li>
                             <li>Watch the conducting video through once so you get the idea</li>
                             <li>Start your video recording and then the conducting video and play along</li>
+                            <li>Try not to make any noise before you start to play</li>
+                            <li>Just record when your part starts - you don't need to sit through lots of empty bars</li>
+                            <li>If you have a long rest in the middle, its okay to record two videos</li>
                             <li>When you're finished, watch the video back and check that you're in frame all the time and that your playing isn't too quiet or too loud!</li>
                         </ul>
                         <p>For help recording a video on mac, pc, iphone or android, <Link href="/help"><a>visit our help page</a></Link>.</p>
@@ -47,11 +50,22 @@ function OrchestraPage() {
                 <Col md="4">
                     <h2 id="#music">Music</h2>
                     <ListGroup>
-                        <ListGroup.Item action href="#link1"><FontAwesomeIcon title="Download" icon={faFileDownload} aria-label="Download" /> Download Violin 1</ListGroup.Item>
-                        <ListGroup.Item action href="#link1"><FontAwesomeIcon title="Download" icon={faFileDownload} aria-label="Download" /> Download Violin 2</ListGroup.Item>
-                        <ListGroup.Item action href="#link1"><FontAwesomeIcon title="Download" icon={faFileDownload} aria-label="Download" /> Download Violin 3</ListGroup.Item>
-                        <ListGroup.Item action href="#link1"><FontAwesomeIcon title="Download" icon={faFileDownload} aria-label="Download" /> Download Cello</ListGroup.Item>
-                        <ListGroup.Item action href="#link1">...</ListGroup.Item>
+                        <ListGroup.Item action href="/pdf/Beethoven9abridged-Bassoon.pdf"><FontAwesomeIcon title="Download" icon={faFileDownload} aria-label="Download" /> Download Bassoon</ListGroup.Item>
+                        <ListGroup.Item action href="/pdf/Beethoven9abridged-Clarinet_in_A.pdf"><FontAwesomeIcon title="Download" icon={faFileDownload} aria-label="Download" /> Download Clarinet (in A)</ListGroup.Item>
+                        <ListGroup.Item action href="/pdf/Beethoven9abridged-Contrabassoon.pdf"><FontAwesomeIcon title="Download" icon={faFileDownload} aria-label="Download" /> Download Contrabassoon</ListGroup.Item>
+                        <ListGroup.Item action href="/pdf/Beethoven9abridged-Double_Bass.pdf"><FontAwesomeIcon title="Download" icon={faFileDownload} aria-label="Download" /> Download Double Bass</ListGroup.Item>
+                        <ListGroup.Item action href="/pdf/Beethoven9abridged-Flute.pdf"><FontAwesomeIcon title="Download" icon={faFileDownload} aria-label="Download" /> Download Flute</ListGroup.Item>
+                        <ListGroup.Item action href="/pdf/Beethoven9abridged-Horn_in_D.pdf"><FontAwesomeIcon title="Download" icon={faFileDownload} aria-label="Download" /> Download Horn (in D)</ListGroup.Item>
+                        <ListGroup.Item action href="/pdf/Beethoven9abridged-Oboe.pdf"><FontAwesomeIcon title="Download" icon={faFileDownload} aria-label="Download" /> Download Oboe</ListGroup.Item>
+                        <ListGroup.Item action href="/pdf/Beethoven9abridged-Percussion.pdf"><FontAwesomeIcon title="Download" icon={faFileDownload} aria-label="Download" /> Download Percussion</ListGroup.Item>
+                        <ListGroup.Item action href="/pdf/Beethoven9abridged-Piccolo.pdf"><FontAwesomeIcon title="Download" icon={faFileDownload} aria-label="Download" /> Download Piccolo</ListGroup.Item>
+                        <ListGroup.Item action href="/pdf/Beethoven9abridged-Timpani.pdf"><FontAwesomeIcon title="Download" icon={faFileDownload} aria-label="Download" /> Download Timpani</ListGroup.Item>
+                        <ListGroup.Item action href="/pdf/Beethoven9abridged-Trombone.pdf"><FontAwesomeIcon title="Download" icon={faFileDownload} aria-label="Download" /> Download Trombone</ListGroup.Item>
+                        <ListGroup.Item action href="/pdf/Beethoven9abridged-Trumpet_in_D.pdf"><FontAwesomeIcon title="Download" icon={faFileDownload} aria-label="Download" /> Download Trumpet (in D)</ListGroup.Item>
+                        <ListGroup.Item action href="/pdf/Beethoven9abridged-Viola.pdf"><FontAwesomeIcon title="Download" icon={faFileDownload} aria-label="Download" /> Download Viola</ListGroup.Item>
+                        <ListGroup.Item action href="/pdf/Beethoven9abridged-Violin_I.pdf"><FontAwesomeIcon title="Download" icon={faFileDownload} aria-label="Download" /> Download Violin I</ListGroup.Item>
+                        <ListGroup.Item action href="/pdf/Beethoven9abridged-Violin_II.pdf"><FontAwesomeIcon title="Download" icon={faFileDownload} aria-label="Download" /> Download Violin II</ListGroup.Item>
+                        <ListGroup.Item action href="/pdf/Beethoven9abridged-Violoncello.pdf"><FontAwesomeIcon title="Download" icon={faFileDownload} aria-label="Download" /> Download Violoncello</ListGroup.Item>
                     </ListGroup>
                 </Col>
             </Row>

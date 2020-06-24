@@ -7,7 +7,8 @@
     "dev": "next",
     "build": "next build",
     "export": "next export",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "aws s3 sync out/. s3://edinburghbeethoven2020.org"
   },
   "repository": {
     "type": "git",

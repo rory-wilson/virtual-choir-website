@@ -24,8 +24,9 @@ function ChoirPage() {
                         <h2>Get ready to record</h2>
                         <p>Before you start, make sure that:</p>
                         <ul class="list-bullet">
-                            <li> that you are in a well-lit place and we can see your face.</li>
+                            <li> that you are in a well-lit place and we can see your face</li>
                             <li> that you are in front of a plain wall if possible</li>
+                            <li> there is little to no background noise</li>
                             <li> you are recording in landscape <FontAwesomeIcon title="Landscape" icon={faImage} aria-label="Landscape" /> and not portrait</li>
                             <li> you are in frame, with your head and shoulders clearly visible straight on like a passport photograph</li>
                             <li> you are not too far away that we can’t hear you and that you’re not too close that your sound is distorted</li></ul>
@@ -36,6 +37,7 @@ function ChoirPage() {
                             <li>You'll need to watch the conducting video and listen to it on headphones - there's a backing track to help you but we don't want to capture it on your microphone!</li>
                             <li>Watch the conducting video through once so you get the idea</li>
                             <li>Start your video recording and then the conducting video and sing along</li>
+                            <li>Try not to make any noise before you start to sing</li>
                             <li>When you're finished, watch the video back and check that you're in frame all the time and that your voice isn't too quiet or too loud!</li>
                         </ul>
                         <p>For help recording a video on mac, pc, iphone or android, <Link href="/help"><a>visit our help page</a></Link>.</p>
@@ -48,7 +50,7 @@ function ChoirPage() {
                 <Col md="4">
                     <h2 id="#music">Music</h2>
                     <ListGroup>
-                        <ListGroup.Item action href="#link1"><FontAwesomeIcon title="Download" icon={faFileDownload} aria-label="Download" /> Download Choir Part</ListGroup.Item>
+                        <ListGroup.Item action href="/pdf/Beethoven9abridged-Choir.pdf"><FontAwesomeIcon title="Download" icon={faFileDownload} aria-label="Download" /> Download Choir Part</ListGroup.Item>
                     </ListGroup>
                 </Col>
             </Row>

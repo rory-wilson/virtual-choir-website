@@ -32,9 +32,9 @@ function OrchestraPage() {
                     <section id="conductor-video">
                         <h2>Record your video</h2>
                         <ul class="list-bullet">
-                            <li>You'll need to watch the conducting video and listen to it on headphones - there's a backing track to help you but we don't want to capture it on your microphone!</li>
-                            <li>Watch the conducting video through once so you get the idea</li>
-                            <li>Start your video recording and then the conducting video and play along</li>
+                            <li>You'll need to watch the <Link href="/orchestravideo"><a>conducting video</a></Link> and listen to it on headphones - there's a backing track to help you but we don't want to capture it on your microphone!</li>
+                            <li>Watch the <Link href="/orchestravideo"><a>conducting video</a></Link> through once so you get the idea</li>
+                            <li>Start your video recording and then the <Link href="/orchestravideo"><a>conducting video</a></Link> and play along</li>
                             <li>Try not to make any noise before you start to play</li>
                             <li>Just record when your part starts - you don't need to sit through lots of empty bars</li>
                             <li>If you have a long rest in the middle, its okay to record two videos</li>

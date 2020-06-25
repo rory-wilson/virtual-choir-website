@@ -16,7 +16,7 @@ function ChoirPage() {
                             <p class="lead">We want you to record a video of yourself singing the famous chorus from Beethoven's 9th symphony.</p>
                             <p>To take part you'll need to </p>
                             <ol class="list-number">
-                                <li><a href="#music">download a copy of the score</a> <FontAwesomeIcon title="PDF" icon={faFilePdf} aria-label="PDF" /></li>
+                                <li><a href="/pdf/Beethoven9abridged-Choir.pdf">download a copy of the score</a> <FontAwesomeIcon title="PDF" icon={faFilePdf} aria-label="PDF" /></li>
                                 <li><a href="#ready">get ready to record</a></li>
                                 <li><a href="#conductor-video">record your video</a>, and </li>
                                 <li><a href="#result">send us the result</a></li>
@@ -52,9 +52,10 @@ function ChoirPage() {
                 </Col>
                 <Col md="4">
                     <aside>
-                        <h2 id="#music">Music</h2>
+                        <h2 id="#music">Downloads</h2>
                         <ListGroup>
                             <ListGroup.Item action href="/pdf/Beethoven9abridged-Choir.pdf"><FontAwesomeIcon title="Download" icon={faFileDownload} aria-label="Download" /> Download Choir Part</ListGroup.Item>
+                            <ListGroup.Item action href="https://637385f1-4e3f-4aeb-8d1a-50703f93bf66.filesusr.com/ugd/bb8af4_020bedc18d4a4a6f8795a55c7d5d4b6d.pdf"><FontAwesomeIcon title="Download" icon={faFileDownload} aria-label="Download" /> Download Pronounciation Guide</ListGroup.Item>
                         </ListGroup>
                     </aside>
                 </Col>

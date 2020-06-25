@@ -1,6 +1,8 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import Nav from './nav'
+import Footer from './footer'
 import Head from 'next/head'
+import Link from 'next/link'
 
 const Layout = ({ title, children }) =>
     <>
@@ -15,6 +17,7 @@ const Layout = ({ title, children }) =>
             </Row>
         </Container>
         {children}
+        <Footer />
     </>
 
 export default Layout;

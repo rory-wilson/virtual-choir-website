@@ -8,7 +8,7 @@
     "build": "next build",
     "export": "next export",
     "start": "next start",
-    "deploy": "aws s3 sync out/. s3://edinburghbeethoven2020.org"
+    "deploy": "next build && next export && aws s3 sync out/. s3://edinburghbeethoven2020.org"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,7 @@
     "@fortawesome/pro-solid-svg-icons": "^5.13.0",
     "@fortawesome/react-fontawesome": "^0.1.11",
     "bootstrap": "^4.5.0",
+    "moment": "^2.27.0",
     "next": "^9.4.2",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",

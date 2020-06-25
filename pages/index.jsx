@@ -4,6 +4,16 @@ import Link from 'next/link'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faViolin, faUserMusic, faBoxHeart } from '@fortawesome/pro-solid-svg-icons'
 
+import moment from 'moment'
+
+const deadline = "2020-07-14";
+
+const daysRemaining = () => {
+    const eventdate = moment(deadline);
+    const todaysdate = moment();
+    return eventdate.diff(todaysdate, 'days');
+}
+
 function HomePage() {
     return <Layout title="Home">
         <Jumbotron fluid className="home-banner">
@@ -17,7 +27,7 @@ function HomePage() {
                 <Col md="4" l="3">
                     <Row>
                         <Col>
-                            <div className="bg-warning text-center rounded-lg p-3 border countdown clearfix"><span className="display-4">14</span> days until deadline</div>
+                            <div className="bg-warning text-center rounded-lg p-3 border countdown clearfix"><span className="display-4">{daysRemaining()}</span> days until deadline</div>
                         </Col>
                     </Row>
                 </Col>
@@ -69,10 +79,12 @@ function HomePage() {
         </section>
         <section className="dark-bg py-5">
             <Container>
-                <p>Since 1947 Edinburgh has welcomed artists from around the world every August. The festivals started as a way to bring people together after a global crisis.</p>
-                <p>
-                    During this year when it will be impossible to welcome visitors, the musicians of Scotland offer this performance to their fellow performers from around the world as a symbol of our solidarity in this difficult time.
+                <aside>
+                    <p>Since 1947 Edinburgh has welcomed artists from around the world every August. The festivals started as a way to bring people together after a global crisis.</p>
+                    <p>
+                        During this year when it will be impossible to welcome visitors, the musicians of Scotland offer this performance to their fellow performers from around the world as a symbol of our solidarity in this difficult time.
                 </p>
+                </aside>
             </Container>
         </section>
     </Layout >

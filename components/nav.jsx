@@ -18,7 +18,7 @@ const NavBar = ({ router: { pathname } }) =>
                 <NavLink path="/choir" label="Choir" pathname />
             </Nav>
             <Nav>
-                <Button>Donate</Button>
+                <a className='btn btn-warning' href="https://www.justgiving.com/fundraising/edinburghbeethoven2020">Donate</a>
             </Nav>
         </Navbar.Collapse>
     </Navbar>

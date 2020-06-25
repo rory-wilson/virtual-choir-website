@@ -49,7 +49,7 @@ function HomePage() {
                             <Card>
                                 <FontAwesomeIcon size="6x" icon={faBoxHeart} />
                                 <Card.Footer className="text-center">
-                                    <a href="/donate" className="stretched-link">Donate</a>
+                                    <a href="https://www.justgiving.com/fundraising/edinburghbeethoven2020" className="stretched-link">Donate</a>
                                 </Card.Footer>
                             </Card>
                         </CardDeck>

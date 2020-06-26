@@ -46,7 +46,8 @@ function OrchestraPage() {
                         </section>
                         <section id="result">
                             <h2>Send us the result</h2>
-                            <p>Once you're recorded your video, send us an email at <a href="mailto:edinburghbeethoven2020.org@gmail.com">edinburghbeethoven2020.org@gmail.com</a> and we'll send you instructions.</p>
+                            <p>Once you're recorded your video, send us an email at <a href="mailto:edinburghbeethoven2020@gmail.com">edinburghbeethoven2020@gmail.com</a> and we'll send you instructions.</p>
+                            <p>If there is more than one part for your instrument, or you play more than one instrument, you are welcome to submit multiple videos, or else ask friends to join in too to make sure all the parts are covered between you.</p>
                         </section>
                     </main>
                 </Col>

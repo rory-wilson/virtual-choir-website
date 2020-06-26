@@ -9,7 +9,7 @@ function ContactPage() {
                     <main>
                         <h1>Contact Us</h1>
                         <p>If you have any questions about the project, need help to record your video or just want to get in touch, you can
-                        email us at: </p><p><a href="mailto:edinburghbeethoven2020.org@gmail.com">edinburghbeethoven2020.org@gmail.com</a>.</p>
+                        email us at: </p><p><a href="mailto:edinburghbeethoven2020@gmail.com">edinburghbeethoven2020@gmail.com</a>.</p>
                     </main>
                 </Col>
             </Row>

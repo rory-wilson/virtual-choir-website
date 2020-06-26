@@ -47,7 +47,7 @@ function ChoirPage() {
                         </section>
                         <section id="result">
                             <h2>Send us the result</h2>
-                            <p>Once you're recorded your video, send us an email at <a href="mailto:edinburghbeethoven2020.org@gmail.com">edinburghbeethoven2020.org@gmail.com</a> and we'll send you instructions.</p>
+                            <p>Once you're recorded your video, send us an email at <a href="mailto:edinburghbeethoven2020@gmail.com">edinburghbeethoven2020@gmail.com</a> and we'll send you instructions.</p>
                         </section>
                     </main>
                 </Col>

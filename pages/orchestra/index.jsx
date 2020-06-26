@@ -3,6 +3,7 @@ import { Container, Row, Col, ListGroup } from 'react-bootstrap';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf, faImage, faFileDownload } from '@fortawesome/pro-solid-svg-icons'
 import Link from 'next/link'
+import Countdown from '../../components/countdown';
 
 function OrchestraPage() {
     return <Layout title="Orchestra">
@@ -50,6 +51,7 @@ function OrchestraPage() {
                     </main>
                 </Col>
                 <Col md="4">
+                    <Countdown />
                     <aside>
                         <h2 id="#music">Music</h2>
                         <ListGroup>

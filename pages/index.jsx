@@ -3,16 +3,8 @@ import { Container, CardDeck, Card, Jumbotron, Row, Col } from 'react-bootstrap'
 import Link from 'next/link'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faViolin, faUserMusic, faBoxHeart } from '@fortawesome/pro-solid-svg-icons'
+import Countdown from '../components/countdown';
 
-import moment from 'moment'
-
-const deadline = "2020-07-14";
-
-const daysRemaining = () => {
-    const eventdate = moment(deadline);
-    const todaysdate = moment();
-    return eventdate.diff(todaysdate, 'days');
-}
 
 function HomePage() {
     return <Layout title="Home">
@@ -27,7 +19,7 @@ function HomePage() {
                 <Col md="4" l="3">
                     <Row>
                         <Col>
-                            <div className="bg-warning text-center rounded-lg p-3 border countdown clearfix"><span className="display-4">{daysRemaining()}</span> days until deadline</div>
+                            <Countdown />
                         </Col>
                     </Row>
                 </Col>
@@ -35,19 +27,19 @@ function HomePage() {
                     <div className="home-cta p-2">
                         <CardDeck>
                             <Card>
-                                <FontAwesomeIcon size="6x" icon={faViolin} />
+                                <FontAwesomeIcon size="6x" icon={faViolin} className="d-none d-sm-block" />
                                 <Card.Footer className="text-center">
                                     <Link href="/orchestra"><a className="stretched-link">Orchestra</a></Link>
                                 </Card.Footer>
                             </Card>
                             <Card>
-                                <FontAwesomeIcon size="6x" icon={faUserMusic} />
+                                <FontAwesomeIcon size="6x" icon={faUserMusic} className="d-none d-sm-block" />
                                 <Card.Footer className="text-center">
                                     <Link href="/choir"><a className="stretched-link">Choir</a></Link>
                                 </Card.Footer>
                             </Card>
                             <Card>
-                                <FontAwesomeIcon size="6x" icon={faBoxHeart} />
+                                <FontAwesomeIcon size="6x" icon={faBoxHeart} className="d-none d-sm-block" />
                                 <Card.Footer className="text-center">
                                     <a href="https://www.justgiving.com/fundraising/edinburghbeethoven2020" className="stretched-link">Donate</a>
                                 </Card.Footer>

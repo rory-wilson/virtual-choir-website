@@ -10,7 +10,7 @@ class MyDocument extends Document {
         return (
             <Html>
                 <Head>
-                    <meta property="og:image" content="/images/home-banner.jpg" />
+                    <meta property="og:image" content="http://edinburghbeethoven2020.org/images/home-banner.jpg" />
                     <meta property="og:image:type" content="image/jpg" />
                     <meta property="og:image:width" content="1366" />
                     <meta property="og:image:height" content="584" />

@@ -13,9 +13,9 @@ function OrchestraPage() {
                     <main>
                         <h1>Instructions for Orchestra</h1>
                         <section>
-                            <p class="lead">We want you to record a video of yourself playing the famous final movement from Beethoven's 9th symphony.</p>
+                            <p className="lead">We want you to record a video of yourself playing the famous final movement from Beethoven's 9th symphony.</p>
                             <p>To take part you'll need to </p>
-                            <ol class="list-number">
+                            <ol className="list-number">
                                 <li><a href="#music">download a copy of the score for your instrument</a> <FontAwesomeIcon title="PDF" icon={faFilePdf} aria-label="PDF" /></li>
                                 <li><a href="#ready">get ready to record</a></li>
                                 <li><a href="#conductor-video">record your video</a>, and </li>
@@ -25,15 +25,15 @@ function OrchestraPage() {
                         <section id="ready">
                             <h2>Get ready to record</h2>
                             <p>Before you start, make sure that:</p>
-                            <ul class="list-bullet">
-                                <li> that you are in a well-lit place and we can see you and your instrument clearly</li>
+                            <ul className="list-bullet">
+                                <li> you are in a well-lit place and we can see you and your instrument clearly</li>
                                 <li> there is little to no background noise</li>
                                 <li> you are recording in landscape <FontAwesomeIcon title="Landscape" icon={faImage} aria-label="Landscape" /> and not portrait</li>
                                 <li> you are not too far away that we can’t hear you and that you’re not too close that your sound is distorted</li></ul>
                         </section>
                         <section id="conductor-video">
                             <h2>Record your video</h2>
-                            <ul class="list-bullet">
+                            <ul className="list-bullet">
                                 <li>You'll need to watch the <Link href="/orchestravideo"><a>conducting video</a></Link> and listen to it on headphones - there's a backing track to help you but we don't want to capture it on your microphone!</li>
                                 <li>Watch the <Link href="/orchestravideo"><a>conducting video</a></Link> through once so you get the idea</li>
                                 <li>Start your video recording and then the <Link href="/orchestravideo"><a>conducting video</a></Link> and play along</li>

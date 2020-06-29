@@ -11,7 +11,7 @@ function HomePage() {
         <Jumbotron fluid className="home-banner">
             <Container>
                 <h1 className="display-3">Edinburgh<br /> Beethoven<br /> 2020</h1>
-
+                <img src="/images/HMLogo.png" alt="Help Musicians logo" width={200} className="helpmusicians-logo" />
             </Container>
         </Jumbotron>
         <Container className="clearfix">

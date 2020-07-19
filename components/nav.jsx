@@ -14,8 +14,6 @@ const NavBar = ({ router: { pathname } }) =>
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
                 <NavLink path="/about" label="About this project" pathname />
-                <NavLink path="/orchestra" label="Orchestra" pathname />
-                <NavLink path="/choir" label="Choir" pathname />
             </Nav>
             <Nav>
                 <a className='btn btn-warning' href="https://www.justgiving.com/fundraising/edinburghbeethoven2020">Donate</a>
